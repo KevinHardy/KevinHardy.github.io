@@ -1,19 +1,16 @@
-var app = angular.module('resumeApp' ['ngRoute']);
+var app = angular.module('resumeApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
 
 	$routeProvider
 	.when('/', {
-		templateUrl: '/homeTmpl.html',
-		controller: 'mainCtrl'
+		templateUrl: '/homeTmpl.html'
 	})
 	.when('/Resume', {
-		templateUrl: '/resumeTmpl.html',
-		controller: 'mainCtrl'
+		templateUrl: '/resumeTmpl.html'
 	})
 	.when('/Contact', {
-		templateUrl: '/contactTmpl.html',
-		controller: 'mainCtrl'
+		templateUrl: '/contactTmpl.html'
 	})
 	.otherwise({
 		redirectTo: '/'
