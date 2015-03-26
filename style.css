@@ -1,7 +1,19 @@
 html, body {
 	background-color: #EEEEEE;
+	width: 100%;
+	height: 100%;
+}
+
+.mainBody {
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 100%;
 }
 
 .navColor {
 	background-color: #1B1795;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
